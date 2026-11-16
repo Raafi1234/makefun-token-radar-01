@@ -1,5 +1,9 @@
 # Launch Radar — a token-radar-01 entry
 
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/Raafi1234/makefun-token-radar-01/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/Raafi1234/makefun-token-radar-01/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
 Reads the sealed DefiLlama snapshot (`/input/snapshot.json`), ranks the protocols that record no
 token yet by an implied launch value, and hands in a dashboard: the board, a detail view per
 protocol, filters, and a concrete farm plan for every row.
@@ -31,3 +35,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input <snapshot.json>
 Node 22+, standard library only. The program is deterministic: same snapshot, same bytes.
 `screenshots/` holds renders of the dashboard itself (board, one protocol's detail view, a
 filtered view), produced from the page's own URL-hash states.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=waxf8q9w&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
